@@ -7,15 +7,15 @@ import Main from './Components/Main'
 import Footer from './Components/Footer'
 
 export default function App() {
-<<<<<<< HEAD
+  // <<<<<<< HEAD
   const [light, setLight] = React.useState(true)
 
   function onOff() {
     setLight((a) => !a)
   }
 
-=======
->>>>>>> c03d880b299b4456607282e39bcd604bea0baecb
+  // =======
+  // >>>>>>> c03d880b299b4456607282e39bcd604bea0baecb
   return (
     <div>
       <NavBar light={light} onOff={onOff} />
@@ -25,7 +25,7 @@ export default function App() {
   )
 }
 
-<<<<<<< HEAD
-// ReactDOM.render(<App />, document.getElementById('root'))
-=======
->>>>>>> c03d880b299b4456607282e39bcd604bea0baecb
+// <<<<<<< HEAD
+// // ReactDOM.render(<App />, document.getElementById('root'))
+// =======
+// >>>>>>> c03d880b299b4456607282e39bcd604bea0baecb
