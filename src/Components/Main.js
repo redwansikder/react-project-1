@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function Main() {
+export default function Main({ light }) {
   return (
-    <div className='main space'>
+    <div className={light ? 'main space' : 'main space bg-dark'}>
       <h1>First react project.</h1>
       <ul>
         <li>
